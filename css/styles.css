@@ -13,6 +13,7 @@ html,
 body {
   scroll-behavior: smooth;
   height: 100vh;
+  
 }
 
 body {
@@ -372,22 +373,25 @@ input[type="checkbox"] {
 
 /*-------- Gallery Section ---------*/
 
-.gallery {
-  background: #eee;
+.slider {
+  padding: 80px 0;
 }
 
-.gallery-cell {
-  width: 66%;
-  height: 400px;
-  margin-right: 10px;
+/* .slick-next {
+  right: 2px !important;
+  background-color: #ff6b6b !important;
 }
+
+.slick-prev {
+  left: 15px !important;
+  background-color: #0c0101 !important;
+} */
 
 /*-------- Matricula Section ---------*/
 
 .container-matricula {
   width: auto;
-  padding: 100px;
-  margin-top: 60px;
+  padding: 170px 0;
 
   display: flex;
   align-items: center;
@@ -692,7 +696,6 @@ footer {
   }
 
   /********? ABOUT *********/
-
   #about {
     padding-top: 50px;
   }
@@ -702,10 +705,14 @@ footer {
     margin-bottom: 50px;
   }
 
+  /********? Slider *********/
+  .slider {
+    padding: 50px 0;
+  }
+
   /********? MATRICULA *********/
   .container-matricula {
-    margin-top: 60px;
-    padding: 50px;
+    padding: 80px 10px;
   }
 
   #matricula h1 {
@@ -756,6 +763,10 @@ footer {
 @media (min-width: 768px) and (max-width: 920px) {
   .title h1 {
     font-size: 2.3rem;
+  }
+
+  .container-matricula {
+    padding: 120px 20px;
   }
 
   /********? FOOTER *********/
