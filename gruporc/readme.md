@@ -19,7 +19,7 @@ O **GLPI** é uma aplicação de gestão de serviços e gerenciamento de ativos 
 - Projeto OpenSource;
 - Catálogo de serviços;
 - Gestão de níveis de serviço (SLAs e OLAs);
-- Catálogo de serviços;
+- Assistência ao usuário;
 - Relatórios com gráficos;
 - Acompanhamento gráfico de chamados;
 - Integração com OCS Inventory NG.
