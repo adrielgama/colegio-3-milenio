@@ -38,6 +38,8 @@ O **GLPI** é uma aplicação de gestão de serviços e gerenciamento de ativos 
 	* [Solução do chamado](#solução-do-chamado)
 	* [Aprovação do chamado](#aprovação-do-chamado)
 	* [Reabrindo chamado](#reabrindo-chamado)
+	* [Clonando chamados](#clonando-chamados)
+	* [Abertura de chamado por e-mail](#abertura-de-chamado-por-e-mail)
 
 <!-- toc stop -->
 
@@ -128,4 +130,19 @@ O GLPI também dispõe de reabertura de chamado, que pode ocorrer por uma soluç
 Basta o usuário acessar o chamado fechado, ir na aba `Chamado` e clicar em **`Reabrir`**.
 ![Reabrir chamado fechado](https://i.ibb.co/t33hNpV/13-Reabrir-Chamado.png)
 
-## 
+
+## Clonando chamados
+Para clonar/duplicar o chamado, basta que o técnico selecione o chamado desejado, e acessar botão  `Ações > Clonar` escolha a quantidade de cópias necessárias para o chamado. 
+
+![Clonar Chamado GIF](https://i.ibb.co/KVKXHR8/Clonar-Chamado-GIF.gif)
+
+## Abertura de chamado por e-mail
+
+Uma das novas funcionalidades é abertura de chamado utilizando o e-mail. Para isso o usuário precisa ter um endereço de e-mail válido cadastrado em nosso sistema, seja ele vinculado ao perfil [GUAIBIM](#login) ou [Login por e-mail](#login). 
+
+Basta que o usuário envie um e-mail para ti.chamados@lojasguaibim.com.br com 
+`Assunto` *(que será o título do chamado)*, e `Corpo` *(que será a descrição)*. 
+> Preferencialmente todo chamado, seja aberto ou respondido pelo e-mail em forma de acompanhamento, **deve ser removido todo o corpo de assinatura**, para facilitar o uso da aplicação e também o acompanhamento das notificações que chegarão por e-mail, para não deixar uma aparência poluída.
+
+![Abrindo chamado por email](https://i.ibb.co/NmpJRbD/New-Ticket-Mail-GIF.gif)
+
