@@ -29,7 +29,7 @@ O **GLPI** é uma aplicação de gestão de serviços e gerenciamento de ativos 
 <!-- toc -->
 * [Página Inicial](#página-inicial)
 	* [Login](#login)
-* [Início GLPI](#início-gpli)
+* [Início GLPI](#início-glpi)
  	* [Interface Padrão](#interface-padrão)
 	* [Interface Administrativa e Suporte](#interface-administrativa-e-suporte)
 * [Chamados](#chamados)
