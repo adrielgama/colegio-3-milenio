@@ -40,6 +40,7 @@ O **GLPI** é uma aplicação de gestão de serviços e gerenciamento de ativos 
 	* [Reabrindo chamado](#reabrindo-chamado)
 	* [Clonando chamados](#clonando-chamados)
 	* [Abertura de chamado por e-mail](#abertura-de-chamado-por-e-mail)
+* [Dashboard](#dashboard)
 
 <!-- toc stop -->
 
@@ -145,4 +146,14 @@ Basta que o usuário envie um e-mail para ti.chamados@lojasguaibim.com.br com
 > Preferencialmente todo chamado, seja aberto ou respondido pelo e-mail em forma de acompanhamento, **deve ser removido todo o corpo de assinatura**, para facilitar o uso da aplicação e também o acompanhamento das notificações que chegarão por e-mail, para não deixar uma aparência poluída.
 
 ![Abrindo chamado por email](https://i.ibb.co/NmpJRbD/New-Ticket-Mail-GIF.gif)
+
+# Dashboard
+
+O painel de controle é acessado na aba **`Plug-ins > Painel`**. 
+
+![Dashboard](https://i.ibb.co/tCy3Qjj/14-Dashboard-Tec.png)
+
+Nele o técnico tem acesso ao seu histórico de chamados em um determinado período. O histórico é apresentado em formato de gráficos com informações como quantidade de chamados atendidos, chamados atribuídos, tempo de solução dos chamados e até mesmo sua pontuação na pesquisa de satisfação, um painel completo sobre um resumo do técnico.
+
+![Dashboard Tec](https://i.ibb.co/JCKL59S/15-Dash-Painel.png)
 
