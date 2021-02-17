@@ -29,6 +29,15 @@ O **GLPI** é uma aplicação de gestão de serviços e gerenciamento de ativos 
 <!-- toc -->
 * [Página Inicial](#página-inicial)
 	* [Login](#login)
+* [Início GLPI](#início-gpli)
+ 	* [Interface Padrão](#interface-padrão)
+	* [Interface Administrativa e Suporte](#interface-administrativa-e-suporte)
+* [Chamados](#chamados)
+	* [Abertura de chamado](#abertura-de-chamado)
+	* [Acompanhamento de chamado](#acompanhamento-de-chamado)
+	* [Solução do chamado](#solução-do-chamado)
+	* [Aprovação do chamado](#aprovação-do-chamado)
+	* [Reabrindo chamado](#reabrindo-chamado)
 
 <!-- toc stop -->
 
@@ -66,6 +75,7 @@ Na interface de chamados observamos diversos tópicos, nos dando a possibilidade
 
 ![Interface Chamados](https://i.ibb.co/xYQJ5Sz/04-Home-Chamados.png)
 
+## Abertura de chamado
 Para criar um novo chamado o técnico deverá acessar o menu **`Assistência > Criar chamado`**, ou utilizar o botão **`+`** ao lado do nome *`Chamados`* como na imagem abaixo:
 
 ![Criar novo chamado](https://i.ibb.co/Br46RTH/08-New-Ticket.png)
@@ -81,15 +91,41 @@ Para ter acesso a mais informações sobre qualquer chamado, o técnico deverá 
 Ao acessar o chamado o técnico irá se deparar com a tela a seguir: 
 > *Caso apareça a tela da imagem de acompanhamento de chamado, técnico deverá clicar na seção **`Chamado`** destacado ao lado*
 
+Aqui o técnico poderá atribuir o chamado para si ou algum outro usuário, fazer alterações e atualizações na configuração do chamado caso tenha necessidade. Se não houver alterações a fazer, poderá prosseguir para página de acompanhamento do chamado.
+
 ![Criar novo chamado](https://i.ibb.co/rs54c07/07-Chamado.png)
 
-Aqui o técnico poderá atribuir o chamado para si ou algum outro usuário, fazer alterações e atualizações na configuração do chamado caso tenha necessidade. Se não houver alterações a fazer, poderá prosseguir para página de acompanhamento do chamado.
+## Acompanhamento de chamado
+Abaixo a tela de acompanhamento do chamado, que deverá ser utilizada para fazer atualizações pertinentes ao status do atendimento, mantendo informado qualquer técnico, observador ou autor que esteja em acompanhamento, solicitar aprovação de solução para um superior quando necessário, ou aplicar uma solução para o chamado.
 
 ![Tela de acompanhamento do chamado](https://i.ibb.co/bHJFzbM/05-Novo-Chamado-Inicial.png)
 
-Esta é a tela de acompanhamento do chamado, que deverá ser utilizada para fazer atualizações pertinentes ao status do atendimento, mantendo informado qualquer técnico, observador ou autor que esteja em acompanhamento do mesmo, solicitar aprovação de solução para um superior ou aplicar uma solução para o chamado.
 
 Para adicionar um novo acompanhamento ao chamado basta clicar no botão **`Acompanhamento`** e adicionar sua descrição, após isso apenas clicar em **`Adicionar`** que seu acompanhamento será enviado, junto com uma notificação para o e-mail do autor, caso este tenha um e-mail cadastrado em sua conta.
 
 ![Acompanhamento de chamado](https://i.ibb.co/QNSDGWP/09-Acompanhamento.png)
 
+## Solução do chamado
+
+Ao executar a tarefa de **`Solução`** temos acesso à alguns modelos já pré-definidos de solução, juntamente com o tipo da solução, facilitando a resposta dos chamados.
+
+![Solução Chamado](https://i.ibb.co/PFX3GCk/10-Modelo-Solucao.png)
+
+![Solução Chamado 2](https://i.ibb.co/L6WCLBy/11-Solucao-Chamado.png)
+
+## Aprovação do chamado
+
+Ao enviar o formulário o chamado constará como modo `Solucionado`, aguardando que o autor do chamado aprove a solução enviada pelo técnico.
+> Caso quem tenha feito a abertura do chamado e aplicado modelo de solução tenha sido o próprio técnico, ele mesmo poderá fazer a aprovação da solução.
+
+![Aguardando Aprovação AUTOR](https://i.ibb.co/LvCLhGT/12-Tela-Aprovacao-Autor.png)
+
+ Após aprovação, o status é alterado para **`Fechado`** e o chamado dá como encerrado. Caso a aprovação seja recusada, o chamado terá o do botão de solução disponível aguardando uma nova atualização para que seja feito os passos até o fechamento total do chamado.
+ 
+## Reabrindo chamado
+O GLPI também dispõe de reabertura de chamado, que pode ocorrer por uma solução aprovada apresentar falha futura, evitando a abertura de uma nova assistência, o chamado pode ser reaberto e feito novo acompanhamento até sua [solução](#solução-do-chamado).
+
+Basta o usuário acessar o chamado fechado, ir na aba `Chamado` e clicar em **`Reabrir`**.
+![Reabrir chamado fechado](https://i.ibb.co/t33hNpV/13-Reabrir-Chamado.png)
+
+## 
