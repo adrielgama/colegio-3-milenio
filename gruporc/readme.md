@@ -6,7 +6,7 @@
 ![](https://glpi-project.org/wp-content/uploads/2017/03/logo-glpi-bleu-1.png)    ![](https://raw.githubusercontent.com/adrielgama/colegio-3-milenio/master/gruporc/gruporc_logo_400.png)
 
 
-![](https://img.shields.io/badge/project-OpenSource-blue) ![](https://img.shields.io/badge/version-9.5.3-green)  ![](https://img.shields.io/badge/config-ProjetosDTI-sucess)
+![](https://img.shields.io/badge/project-OpenSource-blue) ![](https://img.shields.io/badge/glpi_version-9.5.3-ffea00)  ![](https://img.shields.io/badge/config-ProjetosDTI-sucess) ![](https://img.shields.io/badge/doc_version-1.0-orange)
 
 #
 ### > Sobre o GLPI
